@@ -71,7 +71,7 @@ ln -s /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 
 cd /var/www/html
 
-wget http://www.equipecs.com/painelnovo/painelphpnovo.zip
+    wget https://www.dropbox.com/s/wsr1l8pzqihwjmf/painelphpnovo.zip?dl=1
 
 unzip painelphpnovo.zip
 
@@ -85,7 +85,7 @@ rm -rf painelphpnovo.zip
 
 read -p "Digite sua senha do MySQL: " mysqlpassword
 
-wget http://www.equipecs.com/painelnovo/painelcs.sql
+wget https://www.dropbox.com/s/ipk1x7jhxyfk3yl/painelcs.sql?dl=1
 
 mysql -uroot -p$mysqlpassword -e "CREATE DATABASE painel"
 
